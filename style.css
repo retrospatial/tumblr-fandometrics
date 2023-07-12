@@ -98,8 +98,7 @@ p {
     padding: 1rem;
     /* padding-top: 2rem; */
     margin: 0 auto;
-    margin-bottom: 3em;
-    
+    margin-bottom: 2rem;
     line-height: 18px;
     /* background-color: rgba(228, 179, 99, 0.1) */
 }
@@ -121,8 +120,8 @@ p {
     line-height : 35px;
     margin: auto;
     max-width: 800px;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     text-align: justify;
     text-justify: inter-word;
 }
