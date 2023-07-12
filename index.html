@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Tumblr Fandometrics</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+        <link rel="stylesheet" href="style.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js"></script>
+
+		<style>
+			
+			@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One'); </style>
+	
+    </head>
+    <body>
+        <div id = "header_image">
+            <img src = "./images/header.svg">
+        </div>
+		<div id = "header_gif">
+		<img src = "./images/tumblr gif crop.gif">
+		</div>
+			<div class="intro">
+				<p class="medium">An Analysis of Shipping Trends on Tumblr (in progress)</p>
+                <!-- <p class="subheader"><i>Why do people want to see two straight men kiss on screen so badly?</i></p> -->
+				<br>
+				<p class="byline">By Florina Sutanto</p>
+            </div>
+
+		<div>
+            <!-- <h3 class = "section-header"> End of an Era  </h3> -->
+			<p class="main-body">In November 2020, deep into the first year of the pandemic, two subjects took the internet by storm: the impending results of the presidential election, and Destiel finally becoming canon in the worst, most non-committal way possible. While the former marked the beginning of a new historic era for the United States, the latter closed a 15-year chapter of the cult classic show <i>Supernatural</i>, which follows brothers Sam and Dean as they hunt monsters and demons across the country. Dean’s relationship with the angel Castiel (yeah, there are angels in this too. ‘God’ in this show is a guy named Chuck) has been dissected a million times over by fans, academics, and even <a href="https://fangasmthebook.com/2014/04/07/fandom-passion-and-supernatural-a-chat-with-misha-collins/">the cast themselves</a>, particularly on the issue of queerbaiting: “an exploitative tactic used to draw in fans ("baiting" them), and then further marginalize them through textual denials of the subtext the narrative deliberately cultivated.” <a href="https://www.vox.com/2016/9/4/12534818/harry-potter-cursed-child-rowling-queerbaiting">(Vox, 2016)</a> The show experienced something of a cultural revolution and a subsequent increase in ratings when fans (a lot of whom were queer and female) took interest in the Dean/Castiel (shortened to ‘Destiel’) relationship and built an explosive fandom out of it, one that has been going strong for <a href="(https://www.vox.com/culture/21578512/supernatural-series-finale-recap-review-what-happened-dean-destiel-memes)">over a decade</a>. Then, in the penultimate episode of the final season, after years of winking at the audience with meta references to the fan-favorite ship, the show confirmed Castiel's feelings for Dean....right before <span class="spoiler2">Castiel sacrifices himself for Dean and Dean dies of a mortal wound. Ouch.</a></span> (spoilers)
+            </p>
+        </div>
+
+ 		<div id="tweet">
+		<blockquote class="twitter-tweet"><p lang="en" dir="ltr">y&#39;all realise how big this is? spn finally making destiel canon on their final season? breaking twitter and tumblr? the longest slow burn to ever slow burn??? the old fans returning??? the old accounts reviving??? in the middle of a pandemic?? in the middle of THE US ELECTION????</p>&mdash; neth⁷ (@thvsparadise) <a href="https://twitter.com/thvsparadise/status/1324591166717788160?ref_src=twsrc%5Etfw">November 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+
+		
+		<!-- <div id="tweet_mockup" style="display: flex; flex-direction: column;">
+			<table>
+				<tbody>
+					<tr>
+						<td>
+							<a href="https://twitter.com/thvsparadise/status/1324591166717788160">
+								<div id="tweet_image">
+									<a href="https://twitter.com/thvsparadise/status/1324591166717788160">
+										<img src="images/profile.jpeg" style="border-radius: 50%;">
+									</a>
+								</div>
+							</a>
+						</td>
+						<td>
+							<div id="tweet_header">
+								<a href="https://twitter.com/thvsparadise/status/1324591166717788160"  class="tweet-link">
+									<b>neth⁷</b>
+									<br>
+									<span style="color: #54585b;">
+										<a href="https://twitter.com/thvsparadise/status/1324591166717788160" style="text-decoration: none; color: inherit;">
+											@thvsparadise
+										</a>
+									</span>
+									
+								</a>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<p class="tweet">y'all realise how big this is? spn finally making destiel canon on their final season? breaking twitter and tumblr? the longest slow burn to ever slow burn??? the old fans returning??? the old accounts reviving??? in the middle of a pandemic?? in the middle of THE US ELECTION????
+				<br><span style="font-size: 14px; color: #54585b;">12:55 AM · Nov 6, 2020</span>
+			</p>
+		</div> -->
+		
+		  
+
+        <div>
+            <h3 class = "section-header">Tumblr Fandometrics</h3>
+			<p class="main-body">Shipping – the desire to see two characters or people be romantically involved (however you define romance) – has gone a long way since the early days of <a href=”https://oac.cdlib.org/findaid/ark:/13030/kt5k4026x2/>underground Kirk/Spock zines</a>. Fantasizing about two fictional straight men kissing is no longer taboo – not on sites like Tumblr, at least. Since 2013, Tumblr has aggregated a weekly and annual list of the most popular ships (among other categories, including movies, TV shows, and anime & manga) using a system known as <a href=”https://fanlore.org/wiki/Tumblr_Fandometrics”><i>Fandometrics</i></a>, which looks at the number of posts, searches, reblogs, and likes associated with the relevant tag. I scraped each <i>Year in Review</i> post for the Top 20 ships and charted the ranking history of the most popular ship each year.
+            </p>
+        </div>
+		
+		<div id = "svg">
+			<img src="./images/svg/cropped/rank 1.svg" alt="Chart depicting the ranking history of ships that have been #1">
+		</div>
+
+        <p class="chart-notes"><b>Data Source and Analysis Notes:</b><br/> The data was collected from XWordInfo. Slang terms were identified by searching Crossword clues for the following modifiers: "slang", "colloquially", "modern lingo", "informally" and "in texts" </p>
+
+        <div>
+            <p class="main-body">Indeed, since he assumed this position, the number of entries marked as ‘slang’ or ‘modern’ considerably increased. Within his first two years as an editor, the number of slang phrases surpassed the total since 1976.</p>
+        </div>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		
+        <p class= "Sources">
+			<a href="https://github.com/retrospatial/[INSERT REPO]" title="github" target="_blank">
+				<i class="fa fa-github" style="font-size:36px; text-align: center; color:rgb(239,100,97)"></i><br/>
+			</a>	
+            <!-- <b> Sources: </b><br/>
+            “Crossword Editor Opens the Door to Innovation across the Board Shortz Story.” Baltimore Sun, https://www.baltimoresun.com/news/bs-xpm-1993-11-22-1993326127-story.html. <br/>
+            “In the CROSS-FIRE.” Chicago Tribune, https://www.chicagotribune.com/news/ct-xpm-1993-11-07-9311080002-story.html. <br/>
+            Aronow, Isaac. “How Word Lists Help - or Hurt - Crossword Puzzles.” The New York Times, The New York Times, 6 Oct. 2021, https://www.nytimes.com/2021/10/06/crosswords/wordlists-for-constructing-puzzles.html. <br/>
+            Zhou, Yanchun, and Yanhong Fan. “Home-Academy Publication.” Home-Academy Publication, Changchun University of Science and Technology, Changchun, China, https://academypublication.com/. <br/>
+        “Unpack.” GRAMMARIST, 16 Apr. 2022, https://grammarist.com/new-words/unpack/. <br/> -->
+
+	    </p>
+
+	</body>
+</html>
+
+
