@@ -213,6 +213,15 @@ a.tweet-link:hover {
     height: auto;
 }
 
+.centered-table {
+    display: flex;
+    justify-content: center;
+}
+
+.centered-table td {
+    padding: 5px; 
+}
+
 #tweet {
     max-width: 800px;
     margin: 0 auto;
